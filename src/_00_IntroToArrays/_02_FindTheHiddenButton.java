@@ -75,7 +75,13 @@ button[hiddenButton].setText("");
 		JButton buttonClicked = (JButton)e.getSource();
 		
 		//17. if the hiddenButton is clicked, tell the user that they win.
-
+if (buttonClicked == button[i]) {
+	JOptionPane.showMessageDialog(null, "You won");
+	
+	else {
+		JOptionPane.showMessageDialog(null, "Try again")
+	}
+}
 		//18. else tell them to try again
 	}
 }
