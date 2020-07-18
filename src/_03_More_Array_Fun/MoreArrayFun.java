@@ -10,7 +10,7 @@ public class MoreArrayFun {
 		
 	
 	 String [] tests = new String[5]; 
-	
+	}
 	
 	//2. Write a method that takes an array of Strings and prints all the Strings in the array.
 
@@ -24,7 +24,7 @@ public void print(){
 	//3. Write a method that takes an array of Strings and prints all the Strings in the array
 	//   in reverse order.
 public void reverse() {
-	String[] array2 = new String[4]
+	String[] array2 = new String[4];
 	for(int i = -1; i < array2.length; i--) {
 		System.out.println(array2[i]);
 	}
@@ -39,15 +39,13 @@ for(int i = array3.length-1 ; i< array3.length; i=-2) {
 }
 	//5. Write a method that takes an array of Strings and prints all the Strings in the array
 	//   in a completely random order. Almost every run of the program should result in a different order.
-//can you save for me please? i forgot how	
+public void randomorder() {
 Random random = new Random();
-	order = random.nextInt(arrays.length);
-	for(int k = 0; k< arrays.length; k++); {
-		Random random = new Random();
-		order = random.nextInt()
-		System.out.println();
+String[ ]array4 = new String[4];
+	for(int k = 0; k< array4.length; k++); {
+		System.out.println(random.nextInt(array4.length));
 	}
-	
 }
-}
+
+
 }
